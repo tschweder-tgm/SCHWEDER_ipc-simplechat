@@ -22,8 +22,21 @@ Weiters haben wir die Java-Libary QTJambi zu unserem Projekt hinzugefügt.
 ##### Close
 ##### WriteMsg
 ### Client
+#### Class Client
+##### Konstruktor
+##### Start
+##### SendMessage
+##### (Disconnect)
+#### Class Listner (extends Thread)
 ### ServerController
+Hat nur die Main Methode.
+<br>
+Welche einen Server, mit dem Port 5050 und der UI von Ui_ChatServer, mittels der Klasse Server erstellt und startet, mithilfe der Klasse ServerRun.
 ### ClientController
+Hat nur die Main Methode.
+<br>
+Welche einen Client, mit den Verbindungsdaten zu dem Server (port:5050, host:"localhost") und der UI von Ui_ChatClient, mittels der Klasse Client und startet.
+
 
 ## Glossar
 < methode >* ... protected
