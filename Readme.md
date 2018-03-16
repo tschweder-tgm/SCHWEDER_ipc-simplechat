@@ -28,11 +28,16 @@ Weiters haben wir die Java-Libary QTJambi zu unserem Projekt hinzugefügt.
 ##### SendMessage
 ##### (Disconnect)
 #### Class Listner (extends Thread)
+Hat nur die Run Methode.
+<br>
+Diese aktualisiert in einer Dauerschleife den Chat, damit alle neuen Nachrichten auf den Clients angezeigt werden.
 ### ServerController
+#### Class ServerController
 Hat nur die Main Methode.
 <br>
 Welche einen Server, mit dem Port 5050 und der UI von Ui_ChatServer, mittels der Klasse Server erstellt und startet, mithilfe der Klasse ServerRun.
 ### ClientController
+#### Class ClientController
 Hat nur die Main Methode.
 <br>
 Welche einen Client, mit den Verbindungsdaten zu dem Server (port:5050, host:"localhost") und der UI von Ui_ChatClient, mittels der Klasse Client und startet.
